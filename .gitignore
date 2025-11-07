@@ -6,7 +6,8 @@ data/mnist/
 data/mnist/*
 data/mnist/models/
 !data/mnist/.gitkeep
-./moduels
+./models
+models/*
 
 # Output
 out*
@@ -131,3 +132,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+models/mnist/checkpoint.pt
