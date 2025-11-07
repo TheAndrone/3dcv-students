@@ -1,6 +1,12 @@
 # Datasets
 ./data/
 !./data/.gitkeep
+# Ignore MNIST course download and generated models explicitly
+data/mnist/
+data/mnist/*
+data/mnist/models/
+!data/mnist/.gitkeep
+./moduels
 
 # Output
 out*
